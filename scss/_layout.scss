@@ -1,0 +1,16 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  @include flexCenter;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: auto;
+  margin-bottom: 54px;
+}
+
+.social-media {
+  margin-top: auto;
+  margin-bottom: 48px;
+}

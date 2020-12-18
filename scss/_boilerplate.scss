@@ -1,0 +1,23 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: $main-font;
+  font-weight: $font-bold;
+  background: url(/images/bg-stars.svg), linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
+}
+
+li {
+  list-style-type: none;
+}
